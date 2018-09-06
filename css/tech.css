@@ -1,0 +1,36 @@
+.techstack {
+    background-color:	#F4C0CC;
+
+}
+
+.techparagraph{
+    width: 600px;
+    /* height: 300; */
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 500px;
+    padding-bottom: 50px;
+}
+.about {     
+    display: inline-block;     
+    /* position: relative;     */
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
+ }
+
+ .home-button {     
+    /* display: inline-block;      */
+    /* position: relative;     */
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
+ }
+
+ .techstack-button {     
+    display: inline-block;     
+    /* position: relative;     */
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
+ }

@@ -1,0 +1,55 @@
+body {
+    background-color: #c4ebfb;
+}
+
+.text {
+    color: black;
+    text-align: left;
+    padding-top: 200px;
+    padding-right: 350px;
+    padding-left: 350px;
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.paragraph {
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 315px;
+   
+    list-style: none
+}
+
+.paragraph ul {
+    list-style-type: none;
+}
+
+.home-button {
+    
+    font-family: sans-serif;
+    font-size: 35px;
+    color: white;
+    
+    
+    padding-left: 1300px;
+    letter-spacing: 2px;
+    
+    writing-mode: vertical-rl;
+}
+
+a {
+    text-decoration: none;
+}
+
+.techstack-button {
+    
+    font-family: sans-serif;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 2px;
+    
+    writing-mode: vertical-rl;
+}
+
+
