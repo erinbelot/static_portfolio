@@ -1,41 +1,46 @@
-
-/* just copy paste, needs to be refacorted. divs are nooooot okay */
-
-
-
 body {
-    background-color:	#F4C0CC;
-
-}
-
-.techparagraph{
-    width: 600px;
-    /* height: 300; */
-    font-size: 27px;
-    font-family: 'Poppins', sans-serif;
-    padding-left: 500px;
-    padding-bottom: 50px;
-}
-.about {     
-    display: inline-block;     
-    /* position: relative;     */
-    z-index: 1;     
-    padding: 2em;     
-    margin: -2em; 
- }
-
- .home-button {     
-    /* display: inline-block;      */
-    /* position: relative;     */
-    z-index: 1;     
-    padding: 2em;     
-    margin: -2em; 
- }
-
- .techstack-button {     
-    display: inline-block;     
-    /* position: relative;     */
-    z-index: 1;     
-    padding: 2em;     
-    margin: -2em; 
- }
+    margin: 40px;
+  }
+  
+  .sidebar {
+          grid-area: sidebar;
+      }
+  
+      .content {
+          grid-area: content;
+      }
+  
+      .header {
+          grid-area: header;
+      }
+  
+      .footer {
+          grid-area: footer;
+      }
+  
+  
+      .wrapper {
+          display: grid;
+      grid-gap: 10px;
+          grid-template-columns: 120px 120px 120px;
+          grid-template-areas:
+      "....... header header"
+          "sidebar content content"
+          "footer  footer  footer";
+          background-color: #fff;
+          color: #444;
+      }
+  
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+  }
+  
+  .header,
+  .footer {
+    background-color: #999;
+  }
