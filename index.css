@@ -1,7 +1,17 @@
+.navbar{
+	
+} 
+
+.content{
+	font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
 /* start of home page styling */
 
 @import url('https://fonts.googleapis.com/css?family=Karla');
-body {
+.index_page {
 	background-color:#111;
 }
 
@@ -31,23 +41,40 @@ h1 {
 }
 /* end of homepage styling */
 
-/* .content{
+
+.about_page{ 
+	background-color:#c4ebfb;
+
 
 }
 
-.navbar{
-	
-} */
-
-
-/* .p {
-
-} */
-
-/* .paragraph_one{
+.paragraph_one{
 
 }
 
 .paragraph_two{
 
-} */
+}
+
+.paragraph_three{
+
+}
+
+
+
+
+.tech_page{ 
+	background-color: #F4C0CC;
+
+}
+
+.mindmap_page{
+
+}
+
+.projects_page{
+
+}
+
+
+
