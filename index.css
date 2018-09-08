@@ -11,7 +11,7 @@
 /* start of home page styling */
 
 @import url('https://fonts.googleapis.com/css?family=Karla');
-.index_page {
+.index-page {
 	background-color:#111;
 }
 
@@ -42,44 +42,44 @@ h1 {
 /* end of homepage styling */
 
 
-.about_page{ 
+.about-page{ 
 	background-color:#c4ebfb;
 
 
 }
 
-.paragraph_one{
+.paragraph-one{
 
 }
 
-.paragraph_two{
+.paragraph-two{
 
 }
 
-.paragraph_three{
+.paragraph-three{
 
 }
 
 
 
 
-.tech_page{ 
+.tech-page{ 
 	
 	background-color: #F4C0CC;
 
 }
 
-.mindmap_page{
+.mindmap-page{
 	height:1000%;
   	width:1000%;
-	background-color: #d597fc
+	background-color: #d597fc;
 
 }
 
-.projects_page{
-	width: 100%;
-    height: 100%;
-	background-color: #C0EF9C
+.projects-page{
+	/* width: 100%;
+    height: 100%; */
+	background-color: #C0EF9C;
 
 }
 
