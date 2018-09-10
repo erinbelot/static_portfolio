@@ -46,15 +46,17 @@ h1 {
 
 
 
-.about-page{ 
+.about-page { 
 	background-color:#c4ebfb;
 	display: flex;
 	justify-content: center;
-
-
 }
 
-.paragraph-one{
+li {
+	list-style-type: none;
+}
+
+.paragraph-one {
 	font-size: 27px;
 	font-family: 'Poppins', sans-serif;
 	display: flex;
@@ -65,7 +67,7 @@ h1 {
 
 }
 
-.paragraph-two{	 
+.paragraph-two {	 
 		list-style-type: none;
 		font-size: 27px;
 		font-family: 'Poppins', sans-serif;
@@ -76,7 +78,7 @@ h1 {
 		
 }
 
-.paragraph-three{
+.paragraph-three {
 	list-style-type: none;
 	font-size: 27px;
 	font-family: 'Poppins', sans-serif;
@@ -91,21 +93,22 @@ h1 {
 
 
 /* tech page has white strip across top of page */
-.tech-page{ 	
+.tech-page { 	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: #F4C0CC;
 	height: 100%;
 	width: 100%;
 }
 
-
-
-.mindmap-page{	
+.mindmap-page {	
 	background-color: #d4b2ff;
 	height: 100%;
 	width: 100%;
 }
 
-.projects-page{	
+.projects-page {	
 	background-color: #C0EF9C;
 	height: 100%;
 	width: 100%;
@@ -114,21 +117,18 @@ h1 {
 
 /* everything */
 
-.nav-bar{
+.nav-bar {
 	font-family: 'Poppins', sans-serif;
 	font-size: 40px;
 	/* writing-mode: vertical-rl; */
     	
 } 
 
-.content{
+.content {
 	font-size: 27px;
 	font-family: 'Poppins', sans-serif;
 	
 }
-
-
-
 
 
 /* everything below here is navigation */
