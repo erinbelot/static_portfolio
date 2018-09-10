@@ -18,11 +18,6 @@ body {
 	width: 100%;
 }
 
-.projects-page {
-	background-color: blue;
-	height: 100%;
-	width: 100%;
-}
 
 .title {
 	font-family: "karla";
@@ -92,26 +87,30 @@ h1 {
 	
 }
 
-
 /* end of about page */
 
-.tech-page{ 
-	
+
+/* tech page has white strip across top of page */
+.tech-page{ 	
 	background-color: #F4C0CC;
-
+	height: 100%;
+	width: 100%;
 }
 
-.mindmap-page{
-	
+
+
+.mindmap-page{	
 	background-color: #d4b2ff;
-
+	height: 100%;
+	width: 100%;
 }
 
-.projects-page{
-	
+.projects-page{	
 	background-color: #C0EF9C;
-
+	height: 100%;
+	width: 100%;
 }
+
 
 /* everything */
 
@@ -244,3 +243,14 @@ h1 {
    
 
 
+
+
+	/* grid example */
+
+	.cards{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 200px 200px 200px;
+    /* for spaces in between collumn and row */
+    grid-gap: 20px
+}
