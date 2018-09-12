@@ -83,20 +83,34 @@ a {
 	align-content: center;
 }
 /* this is the tech page */
-.tech-page { 	
+/* .tech-page { 	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #F4C0CC;
 	height: 100%;
 	width: 100%;
-}
-.tech-content {
-	font-size: 27px;
-	font-family: 'Poppins', sans-serif;
-	padding-left: 90px;
+} */
+
+.tech-page { 
+	background-color:#F4C0CC;
 	height: 100vh;
 	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.tech-content {
+	padding-left: 100px;
+	list-style-type: none;
+	font-size: 27px;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
 }
 .lines-and-dots {
 	/* display: flex;
@@ -104,12 +118,12 @@ a {
 }
 /* this is the projects page */
 .projects-page { 	
+	background-color:#C0EF9C;
+	height: 100vh;
+	width: 100vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: deeppink;
-	height: 100vh;
-	width: 100vw;
 }
 
 /* this is the lines and dots */
