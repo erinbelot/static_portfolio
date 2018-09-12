@@ -1,53 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
-
-body {
-	margin: 0;
-	/* height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	overflow: hidden;
-	padding-right: 1000px; */
-	height: 100vh;
-	width: 100vw;
-}
+ 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
 
 .index-page {
-	background-color:wheat;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  background: #c0faca;
+  overflow: hidden;
 }
 
-/* .title {
-	padding: 80px;
-	font-family: "karla";
-	text-align: center;
-	color: #FFF;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	letter-spacing: 1px;
-} */
+@font-face {
+  font-family: 'Gingham Variable';
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Gingham.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Gingham.woff") format("woff");
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  padding-left: 1rem;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  margin: 0;
+  width: 100%;
+  font-size: 20vw;
+  font-family: 'Gingham Variable', BlinkMacSystemFont, sans-serif;
+  font-variation-settings: "wght" 0, "wdth" 0;
+  letter-spacing: 0.6rem;
+  color: #f59cb2;
+  transition: font-variation-settings 250ms linear;
+  text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #65f283, 0px 1px 0px #65f283, 2px 1px 0px #65f283, 1px 2px 0px #65f283, 3px 2px 0px #65f283, 2px 3px 0px #65f283, 4px 3px 0px #65f283, 3px 4px 0px #65f283, 5px 4px 0px #65f283, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58;
+}
+h1:hover {
+  font-variation-settings: "wght" 700, "wdth" 150;
+}
+h1:after {
+  content: attr(data-heading);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding-left: 1rem;
+  color: #f59cb2;
+  mix-blend-mode: screen;
+  transition: all 250ms linear;
+  text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #65f283, 0px 1px 0px #65f283, 2px 1px 0px #65f283, 1px 2px 0px #65f283, 3px 2px 0px #65f283, 2px 3px 0px #65f283, 4px 3px 0px #65f283, 3px 4px 0px #65f283, 5px 4px 0px #65f283, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58;
+}
 
-
-
-/* h1 {
-	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-	background-size: cover;
-	color: transparent;
-	-moz-background-clip: text;
-	-webkit-background-clip: text;
-	text-transform: uppercase;
-	font-size: 120px;
-	line-height: .75;
-	margin: 10px 0;
-} */
-
+p {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  color: #0b8024;
+  padding-left: 1em;
+}
 
 
 /* end of homepage styling */
@@ -120,33 +121,37 @@ li {
 	display: flex;
 	align-items: flex-end;
 }
-.mindmap-page {	
-	background-color: #d4b2ff;
+/* end of tech page */
+
+.projects-page { 	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F4C0CC;
 	height: 100%;
 	width: 100%;
 }
 
-.projects-page {	
-	background-color: #C0EF9C;
-	height: 100%;
-	width: 100%;
+.lines-and-dots{
+	display: flex;
+	align-items: flex-end;
 }
 
 
 /* everything */
 
-.nav-bar {
+ /* .nav-bar {
 	font-family: 'Poppins', sans-serif;
-	font-size: 40px;
-	/* writing-mode: vertical-rl; */
-    	
-} 
+	font-size: 40px; 
+	writing-mode: vertical-rl; 
+ } */
 
+/* 
 .content {
 	font-size: 27px;
 	font-family: 'Poppins', sans-serif;
 	
-}
+} */
 
 
 /* everything below here is navigation */
