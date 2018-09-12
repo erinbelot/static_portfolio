@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
  
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
 
@@ -89,9 +90,28 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 150px;
+	/* padding-left: 100px; */
 }
 .tech-content {
 	padding-left: 100px;
+	height: 100%;
+	list-style-type: none;
+	font-size: 27px;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+.paragraph{
+	padding-left: 50px;
+}
+
+/* start of project page */
+.project-content {
+	padding-left: 100px;
+	height: 100%;
 	list-style-type: none;
 	font-size: 27px;
 	font-family: 'Poppins', sans-serif;
@@ -114,14 +134,17 @@ a {
 	align-items: center;
 }
 /* this is the nav bar */
-.nav-bar{
+.nav-bar {
 	font-size: 27px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'karla';
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	align-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 0px 150px;
+	justify-content: space-around;
 }
+
 /* this is the lines and dots */
 *, *:after, *:before {
 		box-sizing: border-box;
