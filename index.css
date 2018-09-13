@@ -3,6 +3,9 @@
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
 
+
+/* try import poopins */
+
 body {
 	margin: 0;
 	/* height: 100%;
@@ -82,13 +85,12 @@ a {
 	display: flex;
 	align-content: center;
 }
-
 .paragraph-one{
 	padding-left:50px;
 }
-/* .paragraph-two{
-	padding-bottom:150px;
-} */
+.paragraph-two{
+	padding-left: 25px;
+}
 /* this is the tech page */
 .tech-page { 
 	background-color:#F4C0CC;
