@@ -82,6 +82,13 @@ a {
 	display: flex;
 	align-content: center;
 }
+
+.paragraph-one{
+	padding-left:50px;
+}
+/* .paragraph-two{
+	padding-bottom:150px;
+} */
 /* this is the tech page */
 .tech-page { 
 	background-color:#F4C0CC;
